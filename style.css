@@ -1,0 +1,112 @@
+
+body{
+    background-color: #FF99FF
+}
+main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 24rem;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    padding: 20px;
+    background-color:#bee8c0;
+    border-radius: 5px;
+}
+h2{
+    align-items: center;
+}
+#container img{
+    height: 12rem;
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+#container .event{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .event .button-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+padding-bottom: 10px;
+align-items: center;
+}
+#container .event p{
+    padding-left: 15px;
+    font-size: 25px;
+    padding-left: 7rem;
+    font-weight: 1000;
+}
+ button{ 
+     width: 75%;
+    background-image: linear-gradient(
+        82.88deg,
+        #455eb5 9.16%, 
+        #5643cc 43.89%,
+        #673fd7 64.72%
+    );
+    border-radius: 8px;
+    border-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.5rem 0.6rem;
+    font-size: 1.2rem ;
+    text-align: center;
+    text-transform: capitalize;
+    user-select:none;
+    -webkit-user-select: none;
+
+}
+  button:hover{
+      box-shadow: rgba(80, 63, 205, 0.2)0 1px 30px;
+      transition-duration: 0.1s;
+  }
+   
+button:nth-child(2){
+         background-color:#3217e7;
+     }
+h3{
+    font-size: 2rem;
+    
+}
+
+  #gamearea{
+      height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  #newgamebutton{
+      margin: 2rem 0;
+  }
+
+  input{
+      border: 0.1rem solid black;
+      background: transparent;
+      margin: 4rem 0;
+      padding: .2rem 0;
+      width: 10rem;
+      text-align: center;
+  }
+  .stats{
+      text-align: left;
+      margin-bottom: 4rem;
+  }
+   .info{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 2rem;
+   }
+  .info span{
+      font-size: 20px;
+      color: red;
+  }
+   
